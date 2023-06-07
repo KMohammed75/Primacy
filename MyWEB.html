@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+	<title> Website </title>
+	<link rel="stylesheet" href="Style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2? family=poppins:wght@100; 200; 300; 400; 600; 700& display=swap">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="header">
+		<nav>
+			<a href="MyWEB.html"> <img src="images/Avance Logo.png"> </a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li> <a href="">Home</a></li>
+					<li> <a href="">Blog</a></li>
+					<li> <a href="">Contact</a></li>
+					<li> <a href="">About</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>Avance International University</h1>
+			<p>It is a good University when it comes to  Vocational and Science<br>And it is a welcoming University</p>
+			<a href="" class="hero-btn">Visit us to know more</a>
+		</div>
+	</section>
+
+	<!--Course-->
+		<section class="course">
+			<h1> courses we offer</h1>
+			<p>INFORMAION TECHNOLOGY,COMPUTER SCIENCE,BUSINESS ADMINISTRATION,ACCOUNTING,EDUCATION</p>
+
+			<div class="row">
+				<div class="course-col">
+					<h3>intermediate</h3>
+					<p>I really love this site</p>
+				</div>
+
+				<div class="course-col">
+					<h3>Degree</h3>
+					<p>I really love this site</p>
+				</div>
+
+				<div class="course-col">
+					<h3>post graduate</h3>
+					<p>I really love this site</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- campus-->
+		<section class="campus">
+			<h1> Our Global campus </h1>
+			<p>We offer good services</p>
+
+			<div class="row">
+				<div class="campus-col">
+					<img src="images/Avance.jpg">
+					<div class="layer">
+						<h3>Uganda</h3>
+					</div>
+				</div>
+				<div class="campus-col">
+					<img src="images/Avance.jpg">
+					<div class="layer">
+						<h3>Nigeria</h3>
+					</div>
+				</div>
+				<div class="campus-col">
+					<img src="images/Avance.jpg">
+					<div class="layer">
+						<h3>london</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!----Facilities-->
+		<section class="facilities">
+			<h1>Our facilities</h1>
+			<p>Every thing is good to go with good stuff</p>
+			<div class="row">
+				<div class="facilities-col">
+					<img src="images/Avance.jpg">
+					<h3>Good</h3>
+					<p>With a good reading environment research</p>
+				</div>
+				<div class="facilities-col">
+					<img src="images/Avance.jpg">
+					<h3>better</h3>
+					<p>With a good reading environment research</p>
+				</div><div class="facilities-col">
+					<img src="images/Avance.jpg">
+					<h3>best</h3>
+					<p>With a good reading environment research</p>
+				</div>
+			</div>
+		</section>
+
+		<!--Testimonials--->
+		<section class="testimonials">
+			<h1>What our student says</h1>
+			<p>It is really a Good Site.</p>
+
+			 <div class="row">
+			 	<div class="testimonial-col">
+			 		<img src="images/moha (2).jpg">
+			 		<p>I lreally like it because it has good stuff</p>
+			 		<h3>Mohammed</h3>
+			 		<i class="fa fa-star"></i>
+			 		<i class="fa fa-star"></i>
+			 		<i class="fa fa-star"></i>
+			 		<i class="fa fa-star"></i>
+			 		<i class="fa fa-star-o"></i>
+			 	</div>
+			 	<div class="testimonial-col">
+			 		<img src="images/moha (2).jpg">
+			 		<p>I lreally like it because it has good stuff</p>
+			 		<h3>Mohammed</h3>
+			 		<i class="fa fa-star"></i>
+			 		<i class="fa fa-star"></i>
+			 		<i class="fa fa-star"></i>
+			 		<i class="fa fa-star"></i>
+			 		<i class="fa fa-star-half-o"></i>
+
+			 	</div>
+			 </div>
+		</section>
+
+		<!--Call to action-->
+		<section class="cta">
+			<h1> Enroll For Various Online Course Anywhere From The World</h1>
+			<a href="" class="hero-btn"> Contact us </a>
+		</section>
+
+		<!--Footer-->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>This website is cool </p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<p> Made with <i class="fa fa-heart-o"></i> by Mohammed</p>
+		</section>
+
+
+	<!--javascript for toggle menu-->
+	<script>
+		var navLinks = document.getElementByid('navLinks')
+		function showmenu() {
+			navLinks.style.right = "0"
+		}
+		function hidemenu(){
+			navLinks.style.right = "-200px"
+		}
+	</script>
+</body>
+</html>
